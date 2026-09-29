@@ -1,0 +1,200 @@
+respondent_id,age,gender,education,case_type,sentence_length_months,time_served_months,institution,region,GR1,GR2,GR3,GR4,GR5,GR_score
+R0001,36.0,Laki-laki,SD,Korupsi,72,51,Lapas Makassar,Sulawesi Selatan,4.0,3.0,3.0,3.0,2.0,3.0
+R0002,34.0,Laki-laki,SD,Kekerasan,22,2,Lapas Makassar,Sulawesi Selatan,2.0,2.0,5.0,2.0,3.0,2.8
+R0003,37.0,Laki-laki,D3/S1,Kekerasan,21,2,Lapas Makassar,Sulawesi Selatan,1.0,3.0,1.0,1.0,3.0,1.8
+R0004,22.0,Laki-laki,SMA,Korupsi,57,18,Lapas Tanjung Gusta,Sumatera Utara,4.0,4.0,3.0,3.0,3.0,3.4
+R0005,26.0,Laki-laki,SD,Korupsi,7,5,Lapas Samarinda,Kalimantan Timur,1.0,3.0,1.0,3.0,1.0,1.8
+R0006,47.0,Laki-laki,SMA,Penipuan,14,2,Lapas Cirebon,Jawa Barat,2.0,1.0,2.0,2.0,3.0,2.0
+R0007,31.0,Laki-laki,SMA,Korupsi,17,7,Lapas Tanjung Gusta,Sumatera Utara,3.0,2.0,4.0,4.0,3.0,3.2
+R0008,42.0,Laki-laki,SD,Penipuan,63,49,Lapas Makassar,Sulawesi Selatan,3.0,,3.0,3.0,2.0,2.75
+R0009,24.0,Laki-laki,SMA,Korupsi,25,2,Lapas Sukamiskin,Jawa Barat,1.0,3.0,3.0,2.0,2.0,2.2
+R0010,19.0,Laki-laki,SD,Narkotika,10,9,Lapas Makassar,Sulawesi Selatan,2.0,2.0,2.0,2.0,2.0,2.0
+R0011,19.0,Laki-laki,SD,Penipuan,27,14,Lapas Sukamiskin,Jawa Barat,5.0,4.0,,4.0,5.0,4.5
+R0012,,Laki-laki,SD,Penipuan,9,2,Lapas Sukamiskin,Jawa Barat,2.0,2.0,2.0,3.0,1.0,2.0
+R0013,22.0,Laki-laki,SMA,Kekerasan,10,1,Lapas Sukamiskin,Jawa Barat,4.0,4.0,4.0,4.0,4.0,4.0
+R0014,41.0,Laki-laki,D3/S1,Narkotika,46,20,Lapas Tanjung Gusta,Sumatera Utara,4.0,4.0,2.0,1.0,3.0,2.8
+R0015,45.0,Laki-laki,SMA,Narkotika,6,2,Lapas Cirebon,Jawa Barat,4.0,5.0,5.0,4.0,4.0,4.4
+R0016,34.0,Laki-laki,SMP,Korupsi,53,33,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,4.0,4.0,3.0,3.6
+R0017,40.0,Laki-laki,D3/S1,Narkotika,67,61,Lapas Cirebon,Jawa Barat,5.0,4.0,4.0,2.0,3.0,3.6
+R0018,39.0,Laki-laki,SMP,Pencurian,12,9,Lapas Porong,Jawa Timur,1.0,2.0,1.0,3.0,3.0,2.0
+R0019,21.0,Laki-laki,SD,Kekerasan,8,3,Lapas Samarinda,Kalimantan Timur,4.0,4.0,,4.0,3.0,3.75
+R0020,23.0,Laki-laki,D3/S1,Pencurian,20,9,Lapas Makassar,Sulawesi Selatan,5.0,3.0,3.0,2.0,4.0,3.4
+R0021,32.0,Laki-laki,SMP,Penipuan,7,6,Lapas Samarinda,Kalimantan Timur,5.0,5.0,4.0,4.0,5.0,4.6
+R0022,38.0,Laki-laki,SD,Narkotika,13,2,Lapas Tanjung Gusta,Sumatera Utara,3.0,1.0,3.0,3.0,3.0,2.6
+R0023,50.0,Laki-laki,SMP,Korupsi,32,18,Lapas Samarinda,Kalimantan Timur,2.0,1.0,1.0,3.0,2.0,1.8
+R0024,30.0,Laki-laki,SMA,Pencurian,12,7,Lapas Samarinda,Kalimantan Timur,2.0,4.0,1.0,2.0,3.0,2.4
+R0025,43.0,Laki-laki,SD,Korupsi,48,30,Lapas Porong,Jawa Timur,4.0,3.0,3.0,,3.0,3.25
+R0026,28.0,Laki-laki,SMA,Korupsi,44,5,Lapas Samarinda,Kalimantan Timur,4.0,4.0,3.0,1.0,4.0,3.2
+R0027,28.0,Laki-laki,D3/S1,Korupsi,111,50,Lapas Tanjung Gusta,Sumatera Utara,5.0,3.0,5.0,5.0,4.0,4.4
+R0028,31.0,Laki-laki,D3/S1,Kekerasan,42,15,Lapas Makassar,Sulawesi Selatan,2.0,2.0,2.0,1.0,3.0,2.0
+R0029,53.0,Laki-laki,D3/S1,Narkotika,3,1,Lapas Porong,Jawa Timur,5.0,4.0,4.0,4.0,4.0,4.2
+R0030,44.0,Perempuan,D3/S1,Kekerasan,41,28,Lapas Porong,Jawa Timur,3.0,5.0,5.0,2.0,4.0,3.8
+R0031,30.0,Laki-laki,SMA,Kekerasan,6,2,Lapas Tanjung Gusta,Sumatera Utara,3.0,3.0,1.0,2.0,,2.25
+R0032,34.0,Laki-laki,SD,Korupsi,13,10,Lapas Cirebon,Jawa Barat,3.0,3.0,2.0,4.0,3.0,3.0
+R0033,35.0,Perempuan,SD,Kekerasan,28,11,Lapas Sukamiskin,Jawa Barat,3.0,3.0,3.0,2.0,2.0,2.6
+R0034,19.0,Laki-laki,SMA,Korupsi,3,2,Lapas Makassar,Sulawesi Selatan,3.0,2.0,2.0,3.0,3.0,2.6
+R0035,23.0,Laki-laki,SMP,Narkotika,50,28,Lapas Madiun,Jawa Timur,4.0,2.0,,2.0,2.0,2.5
+R0036,35.0,Laki-laki,SMA,Penipuan,3,1,Lapas Sukamiskin,Jawa Barat,3.0,4.0,3.0,3.0,2.0,3.0
+R0037,38.0,Laki-laki,SMP,Pencurian,7,1,Lapas Sukamiskin,Jawa Barat,1.0,3.0,4.0,4.0,3.0,3.0
+R0038,30.0,Laki-laki,SMP,Pencurian,23,16,Lapas Samarinda,Kalimantan Timur,4.0,5.0,3.0,5.0,4.0,4.2
+R0039,19.0,Laki-laki,SMA,Pencurian,14,12,Lapas Cirebon,Jawa Barat,3.0,4.0,3.0,2.0,3.0,3.0
+R0040,38.0,Laki-laki,SMA,Penipuan,5,2,Lapas Samarinda,Kalimantan Timur,1.0,4.0,4.0,3.0,2.0,2.8
+R0041,37.0,Laki-laki,SMA,Pencurian,49,26,Lapas Tanjung Gusta,Sumatera Utara,2.0,3.0,4.0,3.0,3.0,3.0
+R0042,51.0,Laki-laki,SD,Korupsi,9,1,Lapas Samarinda,Kalimantan Timur,1.0,2.0,2.0,1.0,,1.5
+R0043,25.0,Laki-laki,SMA,Kekerasan,11,5,Lapas Madiun,Jawa Timur,3.0,3.0,5.0,4.0,3.0,3.6
+R0044,27.0,Laki-laki,SMA,Kekerasan,9,2,Lapas Porong,Jawa Timur,2.0,3.0,3.0,4.0,1.0,2.6
+R0045,27.0,Laki-laki,SMA,Pencurian,32,14,Lapas Porong,Jawa Timur,3.0,1.0,2.0,3.0,3.0,2.4
+R0046,35.0,Laki-laki,SD,Narkotika,3,2,Lapas Tanjung Gusta,Sumatera Utara,2.0,3.0,1.0,2.0,2.0,2.0
+R0047,39.0,Laki-laki,SMP,Narkotika,20,6,Lapas Tanjung Gusta,Sumatera Utara,3.0,4.0,2.0,3.0,3.0,3.0
+R0048,27.0,Laki-laki,SMA,Pencurian,9,5,Lapas Makassar,Sulawesi Selatan,1.0,3.0,3.0,3.0,1.0,2.2
+R0049,24.0,Perempuan,SMA,Kekerasan,21,10,Lapas Sukamiskin,Jawa Barat,2.0,2.0,1.0,2.0,2.0,1.8
+R0050,37.0,Laki-laki,SMA,Kekerasan,5,1,Lapas Samarinda,Kalimantan Timur,,4.0,5.0,3.0,5.0,4.25
+R0051,19.0,Laki-laki,SMP,Pencurian,23,12,Lapas Tanjung Gusta,Sumatera Utara,5.0,4.0,5.0,5.0,5.0,4.8
+R0052,49.0,Laki-laki,D3/S1,Narkotika,4,3,Lapas Madiun,Jawa Timur,3.0,2.0,4.0,5.0,4.0,3.6
+R0053,40.0,Laki-laki,SMA,Korupsi,33,6,Lapas Tanjung Gusta,Sumatera Utara,1.0,4.0,1.0,1.0,1.0,1.6
+R0054,24.0,Laki-laki,SMA,Pencurian,18,5,Lapas Makassar,Sulawesi Selatan,2.0,3.0,,3.0,3.0,2.75
+R0055,45.0,Laki-laki,SD,Narkotika,21,3,Lapas Makassar,Sulawesi Selatan,,3.0,1.0,3.0,2.0,2.25
+R0056,24.0,Laki-laki,D3/S1,Pencurian,38,3,Lapas Cirebon,Jawa Barat,1.0,2.0,5.0,3.0,4.0,3.0
+R0057,22.0,Laki-laki,D3/S1,Narkotika,14,3,Lapas Tanjung Gusta,Sumatera Utara,2.0,4.0,4.0,2.0,3.0,3.0
+R0058,21.0,Laki-laki,SMP,Penipuan,19,15,Lapas Sukamiskin,Jawa Barat,3.0,3.0,3.0,,3.0,3.0
+R0059,40.0,Laki-laki,SMA,Kekerasan,11,8,Lapas Samarinda,Kalimantan Timur,1.0,1.0,2.0,2.0,1.0,1.4
+R0060,24.0,Laki-laki,SD,Pencurian,11,3,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,2.0,1.0,3.0,2.6
+R0061,19.0,Laki-laki,SMA,Pencurian,16,9,Lapas Tanjung Gusta,Sumatera Utara,5.0,4.0,4.0,3.0,3.0,3.8
+R0062,46.0,Laki-laki,SMA,Penipuan,31,25,Lapas Porong,Jawa Timur,4.0,2.0,4.0,1.0,3.0,2.8
+R0063,30.0,Laki-laki,D3/S1,Kekerasan,10,7,Lapas Samarinda,Kalimantan Timur,5.0,4.0,4.0,5.0,5.0,4.6
+R0064,43.0,Laki-laki,SMA,Pencurian,24,11,Lapas Cirebon,Jawa Barat,5.0,2.0,3.0,5.0,4.0,3.8
+R0065,42.0,Laki-laki,SMA,Pencurian,5,1,Lapas Madiun,Jawa Timur,3.0,4.0,3.0,1.0,3.0,2.8
+R0066,31.0,Laki-laki,SMA,Penipuan,35,5,Lapas Makassar,Sulawesi Selatan,4.0,3.0,3.0,2.0,3.0,3.0
+R0067,24.0,Laki-laki,SMP,Narkotika,4,3,Lapas Makassar,Sulawesi Selatan,5.0,3.0,4.0,5.0,4.0,4.2
+R0068,26.0,Perempuan,SMA,Korupsi,37,25,Lapas Sukamiskin,Jawa Barat,3.0,3.0,2.0,3.0,3.0,2.8
+R0069,30.0,Laki-laki,SMA,Narkotika,24,16,Lapas Porong,Jawa Timur,3.0,2.0,4.0,4.0,3.0,3.2
+R0070,21.0,Laki-laki,SD,Korupsi,44,16,Lapas Makassar,Sulawesi Selatan,4.0,1.0,2.0,5.0,2.0,2.8
+R0071,36.0,Laki-laki,SMP,Penipuan,37,13,Lapas Cirebon,Jawa Barat,4.0,5.0,,5.0,5.0,4.75
+R0072,19.0,Laki-laki,SMP,Penipuan,99,74,Lapas Makassar,Sulawesi Selatan,1.0,1.0,3.0,3.0,3.0,2.2
+R0073,36.0,Laki-laki,SMA,Kekerasan,3,1,Lapas Samarinda,Kalimantan Timur,3.0,2.0,2.0,3.0,3.0,2.6
+R0074,19.0,Laki-laki,SMP,Narkotika,25,15,Lapas Samarinda,Kalimantan Timur,3.0,3.0,1.0,3.0,1.0,2.2
+R0075,28.0,Laki-laki,SD,Penipuan,126,31,Lapas Makassar,Sulawesi Selatan,3.0,3.0,2.0,5.0,3.0,3.2
+R0076,36.0,Laki-laki,SMA,Penipuan,7,1,Lapas Cirebon,Jawa Barat,3.0,2.0,4.0,3.0,,3.0
+R0077,26.0,Laki-laki,SMA,Pencurian,5,3,Lapas Samarinda,Kalimantan Timur,2.0,1.0,1.0,2.0,1.0,1.4
+R0078,38.0,Laki-laki,SMA,Kekerasan,48,33,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,3.0,4.0,3.0,3.4
+R0079,28.0,Laki-laki,SMP,Narkotika,19,14,Lapas Madiun,Jawa Timur,1.0,3.0,2.0,4.0,2.0,2.4
+R0080,39.0,Laki-laki,D3/S1,Kekerasan,79,30,Lapas Porong,Jawa Timur,3.0,,4.0,3.0,3.0,3.25
+R0081,37.0,Laki-laki,SD,Penipuan,10,6,Lapas Madiun,Jawa Timur,2.0,4.0,3.0,3.0,3.0,3.0
+R0082,39.0,Laki-laki,SD,Kekerasan,14,3,Lapas Tanjung Gusta,Sumatera Utara,4.0,2.0,2.0,4.0,3.0,3.0
+R0083,32.0,Laki-laki,SMP,Narkotika,24,10,Lapas Samarinda,Kalimantan Timur,3.0,5.0,4.0,5.0,4.0,4.2
+R0084,25.0,Laki-laki,D3/S1,Penipuan,44,32,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,5.0,2.0,4.0,3.6
+R0085,44.0,Laki-laki,SMP,Korupsi,6,1,Lapas Cirebon,Jawa Barat,2.0,1.0,3.0,4.0,3.0,2.6
+R0086,25.0,Laki-laki,D3/S1,Kekerasan,36,4,Lapas Makassar,Sulawesi Selatan,3.0,4.0,2.0,,4.0,3.25
+R0087,24.0,Perempuan,SMP,Pencurian,3,2,Lapas Samarinda,Kalimantan Timur,2.0,3.0,1.0,3.0,2.0,2.2
+R0088,28.0,Laki-laki,SD,Kekerasan,49,34,Lapas Madiun,Jawa Timur,4.0,4.0,1.0,2.0,4.0,3.0
+R0089,29.0,Laki-laki,SMA,Penipuan,31,5,Lapas Cirebon,Jawa Barat,1.0,3.0,3.0,5.0,2.0,2.8
+R0090,31.0,Laki-laki,SMA,Korupsi,3,1,Lapas Samarinda,Kalimantan Timur,1.0,3.0,2.0,3.0,3.0,2.4
+R0091,52.0,Laki-laki,SMP,Pencurian,3,2,Lapas Makassar,Sulawesi Selatan,3.0,2.0,3.0,1.0,1.0,2.0
+R0092,38.0,Laki-laki,SMP,Pencurian,31,6,Lapas Samarinda,Kalimantan Timur,2.0,2.0,2.0,1.0,1.0,1.6
+R0093,41.0,Laki-laki,SMA,Narkotika,12,7,Lapas Makassar,Sulawesi Selatan,3.0,5.0,5.0,5.0,4.0,4.4
+R0094,28.0,Laki-laki,SD,Korupsi,51,24,Lapas Tanjung Gusta,Sumatera Utara,2.0,4.0,5.0,3.0,4.0,3.6
+R0095,19.0,Laki-laki,SMA,Kekerasan,11,6,Lapas Makassar,Sulawesi Selatan,4.0,4.0,4.0,3.0,2.0,3.4
+R0096,28.0,Laki-laki,D3/S1,Penipuan,65,23,Lapas Samarinda,Kalimantan Timur,3.0,4.0,3.0,4.0,1.0,3.0
+R0097,39.0,Laki-laki,D3/S1,Narkotika,26,5,Lapas Porong,Jawa Timur,2.0,3.0,2.0,1.0,2.0,2.0
+R0098,29.0,Perempuan,SMA,Narkotika,23,19,Lapas Madiun,Jawa Timur,3.0,4.0,3.0,4.0,4.0,3.6
+R0099,42.0,Laki-laki,D3/S1,Korupsi,10,2,Lapas Cirebon,Jawa Barat,2.0,3.0,1.0,2.0,1.0,1.8
+R0100,,Laki-laki,SD,Narkotika,39,29,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,4.0,3.0,4.0,3.6
+R0101,22.0,Laki-laki,SD,Penipuan,11,5,Lapas Tanjung Gusta,Sumatera Utara,3.0,2.0,3.0,4.0,3.0,3.0
+R0102,19.0,Laki-laki,SMP,Pencurian,58,45,Lapas Madiun,Jawa Timur,3.0,3.0,1.0,3.0,4.0,2.8
+R0103,38.0,Laki-laki,SMP,Korupsi,54,16,Lapas Samarinda,Kalimantan Timur,2.0,2.0,3.0,,4.0,2.75
+R0104,32.0,Laki-laki,SD,Korupsi,7,3,Lapas Madiun,Jawa Timur,2.0,1.0,3.0,1.0,2.0,1.8
+R0105,44.0,Laki-laki,SD,Korupsi,13,2,Lapas Makassar,Sulawesi Selatan,4.0,3.0,3.0,3.0,3.0,3.2
+R0106,22.0,Laki-laki,SMP,Penipuan,43,37,Lapas Porong,Jawa Timur,1.0,2.0,1.0,3.0,3.0,2.0
+R0107,30.0,Laki-laki,SMA,Korupsi,13,2,Lapas Porong,Jawa Timur,4.0,5.0,5.0,4.0,5.0,4.6
+R0108,28.0,Laki-laki,SMA,Penipuan,7,4,Lapas Cirebon,Jawa Barat,4.0,2.0,2.0,,2.0,2.5
+R0109,24.0,Laki-laki,SMP,Kekerasan,3,2,Lapas Makassar,Sulawesi Selatan,4.0,2.0,3.0,3.0,1.0,2.6
+R0110,45.0,Perempuan,SMA,Narkotika,18,6,Lapas Porong,Jawa Timur,2.0,4.0,3.0,4.0,2.0,3.0
+R0111,38.0,Laki-laki,SMP,Kekerasan,78,49,Lapas Madiun,Jawa Timur,4.0,1.0,,1.0,3.0,2.25
+R0112,35.0,Laki-laki,SMA,Kekerasan,17,10,Lapas Cirebon,Jawa Barat,3.0,3.0,4.0,3.0,,3.25
+R0113,41.0,Perempuan,D3/S1,Penipuan,6,3,Lapas Tanjung Gusta,Sumatera Utara,3.0,4.0,4.0,4.0,,3.75
+R0114,36.0,Laki-laki,SMP,Narkotika,11,9,Lapas Porong,Jawa Timur,3.0,3.0,4.0,3.0,4.0,3.4
+R0115,19.0,Laki-laki,D3/S1,Korupsi,20,10,Lapas Porong,Jawa Timur,4.0,4.0,3.0,5.0,4.0,4.0
+R0116,38.0,Laki-laki,SMP,Kekerasan,3,2,Lapas Makassar,Sulawesi Selatan,2.0,1.0,2.0,1.0,3.0,1.8
+R0117,36.0,Laki-laki,SMP,Pencurian,10,4,Lapas Madiun,Jawa Timur,2.0,2.0,3.0,2.0,2.0,2.2
+R0118,27.0,Laki-laki,SMA,Pencurian,24,7,Lapas Makassar,Sulawesi Selatan,2.0,2.0,3.0,2.0,1.0,2.0
+R0119,30.0,Laki-laki,SMA,Korupsi,11,10,Lapas Samarinda,Kalimantan Timur,2.0,3.0,4.0,3.0,3.0,3.0
+R0120,19.0,Laki-laki,SD,Pencurian,7,4,Lapas Tanjung Gusta,Sumatera Utara,3.0,4.0,4.0,1.0,3.0,3.0
+R0121,27.0,Perempuan,SMA,Korupsi,47,20,Lapas Makassar,Sulawesi Selatan,3.0,3.0,2.0,3.0,3.0,2.8
+R0122,32.0,Laki-laki,SD,Kekerasan,14,4,Lapas Tanjung Gusta,Sumatera Utara,5.0,5.0,4.0,4.0,4.0,4.4
+R0123,45.0,Laki-laki,SMP,Penipuan,3,2,Lapas Tanjung Gusta,Sumatera Utara,,3.0,1.0,3.0,3.0,2.5
+R0124,36.0,Laki-laki,SMA,Pencurian,11,3,Lapas Sukamiskin,Jawa Barat,2.0,,3.0,2.0,2.0,2.25
+R0125,38.0,Laki-laki,SMA,Penipuan,93,56,Lapas Tanjung Gusta,Sumatera Utara,3.0,4.0,3.0,2.0,3.0,3.0
+R0126,35.0,Laki-laki,SMP,Narkotika,6,1,Lapas Makassar,Sulawesi Selatan,3.0,3.0,4.0,2.0,3.0,3.0
+R0127,42.0,Laki-laki,SMA,Pencurian,3,1,Lapas Makassar,Sulawesi Selatan,3.0,2.0,3.0,3.0,4.0,3.0
+R0128,39.0,Laki-laki,SD,Kekerasan,12,8,Lapas Samarinda,Kalimantan Timur,4.0,4.0,2.0,3.0,2.0,3.0
+R0129,26.0,Laki-laki,SMP,Pencurian,31,29,Lapas Cirebon,Jawa Barat,4.0,3.0,1.0,4.0,3.0,3.0
+R0130,20.0,Laki-laki,SMP,Penipuan,3,2,Lapas Makassar,Sulawesi Selatan,1.0,3.0,2.0,2.0,2.0,2.0
+R0131,30.0,Laki-laki,SMP,Kekerasan,26,2,Lapas Samarinda,Kalimantan Timur,4.0,3.0,3.0,2.0,3.0,3.0
+R0132,33.0,Laki-laki,SD,Korupsi,39,12,Lapas Madiun,Jawa Timur,4.0,4.0,4.0,1.0,3.0,3.2
+R0133,41.0,Laki-laki,SD,Kekerasan,6,2,Lapas Sukamiskin,Jawa Barat,,4.0,3.0,4.0,4.0,3.75
+R0134,29.0,Laki-laki,SMP,Korupsi,3,1,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,4.0,2.0,,3.25
+R0135,49.0,Laki-laki,SMA,Narkotika,14,7,Lapas Samarinda,Kalimantan Timur,3.0,2.0,3.0,2.0,3.0,2.6
+R0136,25.0,Laki-laki,D3/S1,Pencurian,3,1,Lapas Makassar,Sulawesi Selatan,2.0,3.0,2.0,3.0,3.0,2.6
+R0137,23.0,Laki-laki,SMP,Pencurian,3,2,Lapas Tanjung Gusta,Sumatera Utara,3.0,5.0,2.0,3.0,,3.25
+R0138,24.0,Laki-laki,SMP,Narkotika,95,30,Lapas Samarinda,Kalimantan Timur,4.0,3.0,2.0,4.0,3.0,3.2
+R0139,19.0,Laki-laki,SMA,Pencurian,94,27,Lapas Sukamiskin,Jawa Barat,4.0,3.0,5.0,4.0,3.0,3.8
+R0140,34.0,Laki-laki,SMP,Penipuan,25,14,Lapas Tanjung Gusta,Sumatera Utara,4.0,4.0,4.0,4.0,4.0,4.0
+R0141,31.0,Laki-laki,D3/S1,Penipuan,33,17,Lapas Makassar,Sulawesi Selatan,,4.0,3.0,5.0,2.0,3.5
+R0142,25.0,Laki-laki,SMA,Pencurian,57,31,Lapas Tanjung Gusta,Sumatera Utara,3.0,3.0,4.0,3.0,3.0,3.2
+R0143,38.0,Laki-laki,D3/S1,Pencurian,37,21,Lapas Makassar,Sulawesi Selatan,4.0,3.0,4.0,5.0,4.0,4.0
+R0144,43.0,Perempuan,D3/S1,Narkotika,31,24,Lapas Samarinda,Kalimantan Timur,2.0,3.0,1.0,3.0,3.0,2.4
+R0145,31.0,Laki-laki,SMA,Narkotika,26,16,Lapas Samarinda,Kalimantan Timur,2.0,1.0,2.0,2.0,2.0,1.8
+R0146,24.0,Laki-laki,D3/S1,Pencurian,55,35,Lapas Sukamiskin,Jawa Barat,2.0,2.0,3.0,3.0,2.0,2.4
+R0147,31.0,Laki-laki,SMA,Narkotika,3,1,Lapas Tanjung Gusta,Sumatera Utara,4.0,5.0,4.0,4.0,4.0,4.2
+R0148,36.0,Laki-laki,SMA,Penipuan,27,4,Lapas Porong,Jawa Timur,2.0,3.0,1.0,2.0,2.0,2.0
+R0149,35.0,Laki-laki,SMA,Kekerasan,34,15,Lapas Tanjung Gusta,Sumatera Utara,2.0,4.0,3.0,4.0,2.0,3.0
+R0150,45.0,Laki-laki,SD,Pencurian,11,2,Lapas Makassar,Sulawesi Selatan,3.0,4.0,2.0,4.0,5.0,3.6
+R0151,50.0,Laki-laki,SMP,Narkotika,42,14,Lapas Makassar,Sulawesi Selatan,2.0,3.0,5.0,4.0,4.0,3.6
+R0152,30.0,Laki-laki,D3/S1,Korupsi,3,2,Lapas Makassar,Sulawesi Selatan,,2.0,2.0,1.0,2.0,1.75
+R0153,44.0,Laki-laki,SD,Korupsi,17,2,Lapas Porong,Jawa Timur,2.0,3.0,4.0,3.0,5.0,3.4
+R0154,31.0,Laki-laki,SMA,Pencurian,6,3,Lapas Tanjung Gusta,Sumatera Utara,2.0,3.0,4.0,4.0,3.0,3.2
+R0155,36.0,Laki-laki,SMP,Korupsi,3,1,Lapas Porong,Jawa Timur,2.0,3.0,4.0,4.0,3.0,3.2
+R0156,29.0,Laki-laki,SMP,Pencurian,3,2,Lapas Cirebon,Jawa Barat,3.0,2.0,2.0,1.0,2.0,2.0
+R0157,34.0,Laki-laki,SMA,Penipuan,3,1,Lapas Sukamiskin,Jawa Barat,4.0,4.0,4.0,3.0,4.0,3.8
+R0158,42.0,Perempuan,SMA,Narkotika,30,18,Lapas Samarinda,Kalimantan Timur,3.0,3.0,3.0,5.0,4.0,3.6
+R0159,31.0,Laki-laki,SMA,Narkotika,11,5,Lapas Madiun,Jawa Timur,1.0,2.0,3.0,4.0,4.0,2.8
+R0160,40.0,Laki-laki,D3/S1,Kekerasan,21,2,Lapas Tanjung Gusta,Sumatera Utara,4.0,5.0,3.0,5.0,4.0,4.2
+R0161,33.0,Laki-laki,D3/S1,Narkotika,28,15,Lapas Porong,Jawa Timur,2.0,1.0,1.0,2.0,2.0,1.6
+R0162,28.0,Laki-laki,SMA,Narkotika,47,28,Lapas Sukamiskin,Jawa Barat,2.0,1.0,4.0,1.0,4.0,2.4
+R0163,30.0,Laki-laki,SD,Narkotika,29,19,Lapas Cirebon,Jawa Barat,1.0,2.0,2.0,2.0,1.0,1.6
+R0164,42.0,Laki-laki,SMP,Kekerasan,12,4,Lapas Tanjung Gusta,Sumatera Utara,5.0,3.0,4.0,3.0,4.0,3.8
+R0165,20.0,Laki-laki,SD,Korupsi,5,4,Lapas Porong,Jawa Timur,2.0,1.0,1.0,1.0,3.0,1.6
+R0166,20.0,Laki-laki,SMA,Korupsi,8,7,Lapas Sukamiskin,Jawa Barat,2.0,5.0,5.0,3.0,3.0,3.6
+R0167,39.0,Laki-laki,SMA,Korupsi,10,8,Lapas Tanjung Gusta,Sumatera Utara,2.0,3.0,2.0,1.0,2.0,2.0
+R0168,25.0,Laki-laki,SMA,Penipuan,5,3,Lapas Porong,Jawa Timur,3.0,2.0,,2.0,2.0,2.25
+R0169,48.0,Laki-laki,SMP,Korupsi,56,11,Lapas Makassar,Sulawesi Selatan,4.0,5.0,4.0,4.0,4.0,4.2
+R0170,44.0,Laki-laki,SMP,Penipuan,14,13,Lapas Sukamiskin,Jawa Barat,3.0,4.0,4.0,3.0,1.0,3.0
+R0171,36.0,Laki-laki,SMA,Kekerasan,20,16,Lapas Sukamiskin,Jawa Barat,3.0,4.0,4.0,2.0,2.0,3.0
+R0172,51.0,Laki-laki,SMA,Pencurian,17,10,Lapas Samarinda,Kalimantan Timur,2.0,4.0,1.0,2.0,3.0,2.4
+R0173,38.0,Laki-laki,SD,Narkotika,5,4,Lapas Tanjung Gusta,Sumatera Utara,5.0,2.0,4.0,4.0,3.0,3.6
+R0174,27.0,Laki-laki,SD,Kekerasan,3,1,Lapas Cirebon,Jawa Barat,3.0,5.0,3.0,4.0,4.0,3.8
+R0175,33.0,Laki-laki,SMA,Kekerasan,44,13,Lapas Sukamiskin,Jawa Barat,2.0,,3.0,2.0,3.0,2.5
+R0176,30.0,Laki-laki,SD,Pencurian,5,1,Lapas Sukamiskin,Jawa Barat,2.0,5.0,2.0,3.0,3.0,3.0
+R0177,19.0,Laki-laki,D3/S1,Pencurian,6,2,Lapas Madiun,Jawa Timur,2.0,3.0,4.0,4.0,3.0,3.2
+R0178,41.0,Laki-laki,SMP,Korupsi,36,25,Lapas Cirebon,Jawa Barat,3.0,3.0,4.0,3.0,4.0,3.4
+R0179,32.0,Laki-laki,SD,Pencurian,68,31,Lapas Porong,Jawa Timur,4.0,4.0,3.0,4.0,3.0,3.6
+R0180,24.0,Laki-laki,SMA,Kekerasan,26,23,Lapas Tanjung Gusta,Sumatera Utara,4.0,,3.0,3.0,4.0,3.5
+R0181,31.0,Laki-laki,SMP,Narkotika,11,4,Lapas Madiun,Jawa Timur,4.0,4.0,3.0,4.0,4.0,3.8
+R0182,23.0,Laki-laki,SD,Kekerasan,32,11,Lapas Makassar,Sulawesi Selatan,4.0,4.0,2.0,3.0,4.0,3.4
+R0183,34.0,Laki-laki,SMA,Narkotika,27,8,Lapas Samarinda,Kalimantan Timur,3.0,4.0,3.0,3.0,3.0,3.2
+R0184,30.0,Laki-laki,SMA,Pencurian,14,4,Lapas Cirebon,Jawa Barat,2.0,3.0,2.0,2.0,2.0,2.2
+R0185,22.0,Laki-laki,SMA,Korupsi,10,7,Lapas Samarinda,Kalimantan Timur,4.0,3.0,3.0,4.0,3.0,3.4
+R0186,27.0,Laki-laki,SMA,Kekerasan,8,1,Lapas Tanjung Gusta,Sumatera Utara,3.0,4.0,4.0,3.0,3.0,3.4
+R0187,41.0,Laki-laki,D3/S1,Kekerasan,23,19,Lapas Makassar,Sulawesi Selatan,4.0,2.0,3.0,2.0,2.0,2.6
+R0188,44.0,Perempuan,SMP,Narkotika,18,2,Lapas Makassar,Sulawesi Selatan,4.0,2.0,3.0,3.0,4.0,3.2
+R0189,35.0,Laki-laki,SMA,Korupsi,71,65,Lapas Samarinda,Kalimantan Timur,5.0,,4.0,4.0,4.0,4.25
+R0190,48.0,Laki-laki,SMA,Kekerasan,127,69,Lapas Cirebon,Jawa Barat,,4.0,3.0,3.0,2.0,3.0
+R0191,40.0,Laki-laki,SMA,Penipuan,4,1,Lapas Tanjung Gusta,Sumatera Utara,4.0,3.0,4.0,4.0,5.0,4.0
+R0192,47.0,Laki-laki,SD,Pencurian,26,6,Lapas Sukamiskin,Jawa Barat,3.0,2.0,2.0,4.0,3.0,2.8
+R0193,40.0,Laki-laki,SMP,Narkotika,6,2,Lapas Samarinda,Kalimantan Timur,4.0,3.0,3.0,4.0,1.0,3.0
+R0194,19.0,Laki-laki,SMP,Kekerasan,11,8,Lapas Tanjung Gusta,Sumatera Utara,5.0,3.0,3.0,4.0,5.0,4.0
+R0195,20.0,Laki-laki,SMA,Korupsi,3,2,Lapas Sukamiskin,Jawa Barat,4.0,3.0,4.0,2.0,3.0,3.2
+R0196,21.0,Laki-laki,SMP,Kekerasan,41,35,Lapas Makassar,Sulawesi Selatan,4.0,2.0,2.0,4.0,3.0,3.0
+R0198,27.0,Laki-laki,SMP,Penipuan,12,6,Lapas Sukamiskin,Jawa Barat,2.0,,3.0,2.0,4.0,2.75
+R0199,25.0,Laki-laki,SD,Penipuan,13,4,Lapas Samarinda,Kalimantan Timur,4.0,3.0,5.0,4.0,3.0,3.8
+R0200,19.0,Laki-laki,SMP,Narkotika,3,1,Lapas Madiun,Jawa Timur,2.0,1.0,1.0,3.0,2.0,1.8

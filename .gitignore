@@ -1,0 +1,59 @@
+# =============================================================================
+#  PERINGATAN PRIVASI - BACA SEBELUM MENAMBAHKAN DATA APA PUN
+# =============================================================================
+#  Repo ini saat ini HANYA memuat data DUMMY (dibangkitkan np.random di
+#  File 00). Tidak ada satu pun responden sungguhan di dalamnya.
+#
+#  SAAT DATA RIIL MASUK: data kuesioner narapidana memuat usia, gender,
+#  pendidikan, jenis kasus, lama vonis, masa tahanan, NAMA LAPAS, dan
+#  wilayah -- ditambah penilaian mereka terhadap aparat hukum. Kombinasi
+#  atribut itu dapat mengidentifikasi individu tertentu.
+#
+#  RIWAYAT GIT BERSIFAT PERMANEN. Berkas yang sekali ter-commit tetap bisa
+#  ditarik dari commit lama meskipun kemudian dihapus. Membersihkannya
+#  memerlukan penulisan ulang seluruh riwayat repo (git filter-repo / BFG).
+#
+#  Karena itu, SEBELUM menjalankan apa pun dengan data riil:
+#    1. Tambahkan nama berkas data riil Anda ke daftar di bawah ini
+#    2. Jalankan `git status` -> pastikan berkas itu TIDAK muncul
+#    3. Baru jalankan notebook
+# =============================================================================
+
+# Berkas data mentah - diabaikan sejak awal sebagai jaring pengaman
+kuesioner_*.csv
+raw_*.csv
+*_riil.csv
+*_real.csv
+*_asli.csv
+data_mentah*.csv
+
+# -----------------------------------------------------------------------------
+# Artefak yang bisa dibuat ulang - tidak perlu masuk repo
+# -----------------------------------------------------------------------------
+# Model terlatih (~1 MB biner). Dihasilkan ulang setiap File 05 dijalankan.
+*.joblib
+
+# -----------------------------------------------------------------------------
+# Arsip lokal - sengaja TIDAK diunggah (penjelasan di LAPORAN_PERBAIKAN.md)
+# -----------------------------------------------------------------------------
+files_backup_pre_fix/
+_before_runs/
+files.zip
+
+# -----------------------------------------------------------------------------
+# Python & Jupyter
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# -----------------------------------------------------------------------------
+# Sistem & editor
+# -----------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

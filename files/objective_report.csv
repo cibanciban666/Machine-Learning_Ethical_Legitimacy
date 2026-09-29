@@ -1,0 +1,2 @@
+L_classification,L_fairness,L_ethical,lambda1,lambda2,L_total,L_fairness_after_weighting,best_model,cluster_ari,cluster_stabil
+0.4862568191958574,0.005326680534472742,0.5137864583333334,0.1,0.2,0.5895467789159713,0.01315638762392009,Random Forest,0.1842207678261489,False

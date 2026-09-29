@@ -1,0 +1,6 @@
+actor_category,mean,std,count
+Judge,-0.027,0.42,182
+Prosecutor,-0.026,0.386,179
+CorrectionalOfficer,-0.022,0.424,198
+Investigator,-0.017,0.402,196
+Advocate,0.005,0.389,127

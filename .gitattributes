@@ -1,0 +1,14 @@
+# Normalisasi akhir-baris: cegah notebook & CSV rusak saat dibuka di OS lain
+* text=auto eol=lf
+
+*.ipynb  text eol=lf
+*.csv    text eol=lf
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+
+# Berkas biner - jangan disentuh
+*.docx   binary
+*.zip    binary
+*.joblib binary
+*.png    binary

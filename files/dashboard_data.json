@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "framework": "EHSL-ML+ (Ethical-Governance Survey-driven and Human-supervised Learning Plus)",
+    "n_respondents": 199,
+    "n_actor_observations": 896,
+    "data_type": "DUMMY (simulasi) - BUKAN data riil",
+    "note": "Semua angka bersifat ilustratif untuk demonstrasi pipeline."
+  },
+  "layer1_index_scores": {
+    "national_means": {
+      "VfV": 48.853,
+      "FCNC": 49.274,
+      "ID": 49.516,
+      "MAS": 49.076,
+      "ECI": 49.37,
+      "NREI": 49.323
+    },
+    "nrei_category_distribution": {
+      "Moderate": 108,
+      "Low": 50,
+      "High": 41
+    },
+    "actor_specific_means": [
+      {
+        "actor_category": "Advocate",
+        "VfV_norm": 50.3,
+        "FCNC_norm": 50.7,
+        "ID_norm": 50.3,
+        "MAS_actor": 50.1,
+        "ECI_actor": 50.4,
+        "NREI_actor": 49.4
+      },
+      {
+        "actor_category": "CorrectionalOfficer",
+        "VfV_norm": 49.1,
+        "FCNC_norm": 47.8,
+        "ID_norm": 49.6,
+        "MAS_actor": 49.3,
+        "ECI_actor": 48.7,
+        "NREI_actor": 49.2
+      },
+      {
+        "actor_category": "Investigator",
+        "VfV_norm": 48.9,
+        "FCNC_norm": 49.7,
+        "ID_norm": 49.4,
+        "MAS_actor": 49.1,
+        "ECI_actor": 49.5,
+        "NREI_actor": 49.2
+      },
+      {
+        "actor_category": "Judge",
+        "VfV_norm": 47.0,
+        "FCNC_norm": 49.6,
+        "ID_norm": 49.5,
+        "MAS_actor": 48.0,
+        "ECI_actor": 49.6,
+        "NREI_actor": 48.9
+      },
+      {
+        "actor_category": "Prosecutor",
+        "VfV_norm": 48.9,
+        "FCNC_norm": 48.7,
+        "ID_norm": 49.1,
+        "MAS_actor": 49.0,
+        "ECI_actor": 48.8,
+        "NREI_actor": 49.0
+      }
+    ]
+  },
+  "layer2_feature_engineering": {
+    "temporal_pattern_by_stage": {
+      "VfV": {
+        "t1": 48.927,
+        "t2": 48.806,
+        "t3": 48.62,
+        "t4": 49.196
+      },
+      "FCNC": {
+        "t1": 49.651,
+        "t2": 48.841,
+        "t3": 49.673,
+        "t4": 47.841
+      },
+      "ID": {
+        "t1": 49.472,
+        "t2": 49.174,
+        "t3": 50.142,
+        "t4": 49.646
+      }
+    },
+    "mean_consistency_by_actor": {
+      "Investigator": 0.892,
+      "Judge": 0.899,
+      "Advocate": 0.89,
+      "CorrectionalOfficer": 0.897,
+      "Prosecutor": 0.89
+    },
+    "interaction_feature_means": {
+      "IF_VfV_FCNC": 0.265,
+      "IF_FCNC_ID": 0.269,
+      "IF_VfV_ID": 0.266,
+      "IF_ID_Stage": 0.444
+    }
+  },
+  "layer3_ml_analytics": {
+    "model_comparison": [
+      {
+        "model": "Random Forest",
+        "accuracy": 0.875,
+        "macro_f1": 0.8818752307124399
+      },
+      {
+        "model": "XGBoost",
+        "accuracy": 0.825,
+        "macro_f1": 0.8326051209772141
+      },
+      {
+        "model": "Logistic Regression",
+        "accuracy": 0.825,
+        "macro_f1": 0.8247046880767811
+      }
+    ],
+    "cluster_distribution": {
+      "0": 83,
+      "1": 116
+    },
+    "n_anomalies": {
+      "isolation_forest": 10,
+      "lof": 10,
+      "agreement_both": 8
+    },
+    "sensitivity_check": {
+      "mean_flip_rate_pct": 6.766783919597991,
+      "flip_rate_pass_lt5pct": false,
+      "mean_spearman": 0.991633654789097,
+      "spearman_pass_gt090": true,
+      "n_monte_carlo_iter": 10000,
+      "l1_budget_per_level": 0.2,
+      "ST_nrei_over_masECI_lama": 33.96706743335076,
+      "ST_nrei_over_masECI_baru": 7.510029144522543
+    }
+  },
+  "layer4_explainability": {
+    "top_features_shap": [
+      {
+        "feature": "T_ID_t3",
+        "mean_abs_shap": 0.0239180992271545
+      },
+      {
+        "feature": "ECV_Investigator_ID",
+        "mean_abs_shap": 0.0239104770731896
+      },
+      {
+        "feature": "ECV_CorrectionalOfficer_FCNC",
+        "mean_abs_shap": 0.0235381092799766
+      },
+      {
+        "feature": "T_ID_t1",
+        "mean_abs_shap": 0.023529804220572
+      },
+      {
+        "feature": "T_FCNC_t1",
+        "mean_abs_shap": 0.0207057808205794
+      },
+      {
+        "feature": "T_VfV_t3",
+        "mean_abs_shap": 0.0203834752637839
+      },
+      {
+        "feature": "ECV_Judge_ID",
+        "mean_abs_shap": 0.0203347023695878
+      },
+      {
+        "feature": "ECV_CorrectionalOfficer_ID",
+        "mean_abs_shap": 0.0187276828883362
+      },
+      {
+        "feature": "T_FCNC_t3",
+        "mean_abs_shap": 0.0181082965932268
+      },
+      {
+        "feature": "ECV_Judge_FCNC",
+        "mean_abs_shap": 0.0179947082471922
+      }
+    ]
+  },
+  "layer5_erm": {
+    "national_erm_mean": -0.016,
+    "erm_category_distribution": {
+      "Slightly Negative": 97,
+      "Slightly Positive": 76,
+      "Negative": 13,
+      "Moderately Positive": 10,
+      "Strongly Positive": 3
+    },
+    "erm_by_actor": [
+      {
+        "actor_category": "Judge",
+        "mean": -0.027,
+        "std": 0.42,
+        "count": 182
+      },
+      {
+        "actor_category": "Prosecutor",
+        "mean": -0.026,
+        "std": 0.386,
+        "count": 179
+      },
+      {
+        "actor_category": "CorrectionalOfficer",
+        "mean": -0.022,
+        "std": 0.424,
+        "count": 198
+      },
+      {
+        "actor_category": "Investigator",
+        "mean": -0.017,
+        "std": 0.402,
+        "count": 196
+      },
+      {
+        "actor_category": "Advocate",
+        "mean": 0.005,
+        "std": 0.389,
+        "count": 127
+      }
+    ],
+    "erm_by_stage": [
+      {
+        "stage": "t2_Penuntutan",
+        "mean": -0.026,
+        "std": 0.386,
+        "count": 179
+      },
+      {
+        "stage": "t4_Pemasyarakatan",
+        "mean": -0.022,
+        "std": 0.424,
+        "count": 198
+      },
+      {
+        "stage": "t1_Penyidikan",
+        "mean": -0.017,
+        "std": 0.402,
+        "count": 196
+      },
+      {
+        "stage": "t3_Peradilan",
+        "mean": -0.014,
+        "std": 0.407,
+        "count": 309
+      }
+    ]
+  }
+}

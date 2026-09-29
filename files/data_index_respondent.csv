@@ -1,0 +1,200 @@
+respondent_id,GR_norm,VfV_overall,FCNC_overall,ID_overall,MAS_overall,ECI_overall,n_actors_encountered,NREI_overall,VfV_overall_cat5,VfV_overall_cat3,FCNC_overall_cat5,FCNC_overall_cat3,ID_overall_cat5,ID_overall_cat3,MAS_overall_cat5,MAS_overall_cat3,ECI_overall_cat5,ECI_overall_cat3,NREI_overall_cat5,NREI_overall_cat3
+R0001,50.0,37.5,46.5625,50.9375,42.875,48.75,4,46.650000000000006,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0002,44.99999999999999,43.75,41.25,56.75,48.95,49.0,5,48.18000000000001,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0003,20.0,32.0,32.0,33.25,32.5,32.625,5,30.05,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0004,60.0,56.0,56.0,64.0,59.2,60.0,5,59.68000000000001,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0005,20.0,38.0,48.0,52.0,43.6,50.0,5,41.44,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0006,25.0,28.0,28.0,32.75,29.9,30.375,5,29.11,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0007,55.00000000000001,48.75,35.0,38.0,44.45,36.5,5,43.38,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0008,43.75,60.25,55.0,57.0,58.95,56.0,5,54.730000000000004,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0009,30.000000000000004,63.000000000000014,58.75,60.0,61.8,59.375,5,54.47,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate
+R0010,25.0,46.75,55.0,48.75,47.55,51.875,5,44.769999999999996,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0011,87.5,81.0,67.0,87.0,83.4,77.0,5,81.66000000000001,Very High,High,High,High,Very High,High,Very High,High,High,High,Very High,High
+R0012,25.0,48.75,44.0,38.0,44.45,41.0,5,39.18000000000001,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low
+R0013,75.0,54.25,57.5,35.0,46.55,46.25,5,52.120000000000005,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0014,44.99999999999999,55.0,53.75,36.666666666666664,47.666666666666664,45.208333333333336,3,46.150000000000006,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0015,85.00000000000001,50.0,40.0,42.1875,46.875,41.09375,4,52.1875,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0016,65.0,92.5,93.75,95.9375,93.875,94.84375,4,88.48750000000001,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High
+R0017,65.0,30.0,48.0,53.0,39.2,50.5,5,48.88,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0018,25.0,77.5,73.75,71.25,75.0,75.20833333333333,4,65.08333333333333,High,High,High,High,High,High,High,High,High,High,High,High
+R0019,68.75,71.0,82.25,74.5,72.4,78.375,5,74.06,High,High,Very High,High,High,High,High,High,High,High,High,High
+R0020,60.0,63.75,67.5,56.25,60.75,61.875,4,61.05,High,High,High,High,Moderate,Moderate,High,High,High,High,High,High
+R0021,89.99999999999999,21.5625,37.5,28.749999999999996,24.4375,33.125,4,41.02499999999999,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0022,40.0,30.3125,27.1875,41.25,34.6875,34.21875,4,35.5625,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low
+R0023,20.0,68.0,52.25,54.5,62.6,53.375,5,50.39,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate
+R0024,35.0,31.25,18.4375,39.0625,34.375,28.75,4,32.25,Low,Low,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0025,56.25,32.5,44.0,28.0,30.7,36.0,5,37.93,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low
+R0026,55.00000000000001,47.5,49.583333333333336,43.75,46.0,46.458333333333336,4,47.983333333333334,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0027,85.00000000000001,67.25,71.0,60.0,64.35,65.5,5,68.94,High,High,High,High,Moderate,Moderate,High,High,High,High,High,High
+R0028,25.0,27.75,30.0,39.0,32.25,34.5,5,31.700000000000003,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0029,80.0,46.0,48.0,53.0,48.8,50.5,5,55.72,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0030,70.0,13.75,32.5,22.499999999999996,17.25,27.5,4,31.9,Very Low,Low,Low,Low,Low,Low,Very Low,Low,Low,Low,Low,Low
+R0031,31.25,57.1875,52.1875,60.9375,58.6875,56.5625,4,52.35,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0032,50.0,55.0,50.25,46.0,51.4,48.125,5,49.81,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0033,40.0,70.0,75.0,76.25,72.5,75.625,4,67.25,High,High,High,High,High,High,High,High,High,High,High,High
+R0034,40.0,55.0,26.666666666666668,25.833333333333332,43.333333333333336,26.25,3,35.833333333333336,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Low,Low
+R0035,37.5,54.75,66.75,61.0,57.25,63.875,5,55.95,Moderate,Moderate,High,High,High,High,Moderate,Moderate,High,High,Moderate,Moderate
+R0036,50.0,46.0,33.5,51.5,48.2,42.5,5,46.28,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0037,50.0,58.0,53.0,55.0,56.8,54.0,5,54.32,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0038,80.0,48.75,58.75,58.4375,52.625,58.59375,4,60.4875,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,High,High
+R0039,50.0,32.5,40.0,30.625000000000004,31.75,35.3125,4,36.825,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0040,44.99999999999999,28.0,21.0,18.75,24.3,19.875,5,26.67,Low,Low,Low,Low,Very Low,Low,Low,Low,Very Low,Low,Low,Low
+R0041,50.0,95.5,85.0,93.75,94.8,89.375,5,83.67,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High
+R0042,12.5,65.5,63.75,74.0,68.9,68.875,5,57.61,High,High,High,High,High,High,High,High,High,High,Moderate,Moderate
+R0043,65.0,7.25,19.75,18.0,11.55,18.875,5,25.17,Very Low,Low,Very Low,Low,Very Low,Low,Very Low,Low,Very Low,Low,Low,Low
+R0044,40.0,26.0,15.0,19.0,23.2,17.0,5,24.08,Low,Low,Very Low,Low,Very Low,Low,Low,Low,Very Low,Low,Low,Low
+R0045,35.0,33.0,18.0,9.0,23.4,13.5,5,21.759999999999998,Low,Low,Very Low,Low,Very Low,Low,Low,Low,Very Low,Low,Low,Low
+R0046,25.0,32.0,41.0,44.75,37.1,42.875,5,36.99,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Low,Low
+R0047,50.0,40.0,43.75,47.5,43.0,45.625,4,45.45,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0048,30.000000000000004,33.0,38.75,46.0,38.2,40.625,5,37.53,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate,Low,Low
+R0049,20.0,37.5,47.1875,45.3125,40.625,46.25,4,38.75,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Low,Low
+R0050,81.25,30.0,40.0,35.0,32.0,37.5,4,44.05,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0051,95.0,65.0,66.25,75.0,69.0,70.625,4,74.85,High,High,High,High,High,High,High,High,High,High,High,High
+R0052,65.0,65.625,52.5,52.8125,60.5,52.65625,4,58.2625,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate
+R0053,15.000000000000002,18.333333333333332,31.25,8.333333333333332,14.333333333333334,19.791666666666668,3,16.650000000000002,Very Low,Low,Low,Low,Very Low,Low,Very Low,Low,Very Low,Low,Very Low,Low
+R0054,43.75,32.5,37.5,45.0,37.5,41.25,4,40.25,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0055,31.25,54.75,71.75,52.75,53.95,62.25,5,52.730000000000004,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate
+R0056,50.0,48.0,47.75,49.5,48.6,48.625,5,48.89,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0057,50.0,58.0,60.0,57.0,57.6,58.5,5,56.440000000000005,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0058,50.0,55.0,59.6875,68.0,60.2,62.96875,5,59.2675,Moderate,Moderate,Moderate,Moderate,High,High,High,High,High,High,Moderate,Moderate
+R0059,9.999999999999998,60.0,57.75,45.5,54.2,51.625,5,44.330000000000005,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0060,40.0,42.5,50.0,45.0,43.5,47.5,4,44.400000000000006,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0061,70.0,83.75,80.0,83.75,83.75,81.875,4,80.25,Very High,High,High,High,Very High,High,Very High,High,Very High,High,Very High,High
+R0062,44.99999999999999,37.0,36.99999999999999,31.0,34.6,34.0,5,36.440000000000005,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0063,89.99999999999999,71.25,67.5,53.75,64.25,60.625,4,67.95,High,High,High,High,Moderate,Moderate,High,High,High,High,High,High
+R0064,70.0,32.75,33.0,33.0,32.85,33.0,5,40.34,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0065,44.99999999999999,77.25,80.0,90.0,82.35,85.0,5,75.94,High,High,High,High,Very High,High,Very High,High,Very High,High,High,High
+R0066,50.0,30.0,25.625,20.9375,26.375,23.28125,4,29.8625,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0067,80.0,66.25,56.25,58.75,63.25,57.5,4,64.3,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,High,High
+R0068,44.99999999999999,25.3125,45.0,34.375,28.9375,39.6875,4,36.45,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low
+R0069,55.00000000000001,10.0,8.0,22.5,15.0,15.25,5,23.1,Very Low,Low,Very Low,Low,Low,Low,Very Low,Low,Very Low,Low,Low,Low
+R0070,44.99999999999999,57.0,62.0,68.0,61.4,65.0,5,59.56,Moderate,Moderate,High,High,High,High,High,High,High,High,Moderate,Moderate
+R0071,93.75,52.5,42.5,40.0,47.5,41.25,4,54.25,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0072,30.000000000000004,43.4375,56.25,50.0,46.0625,53.125,4,45.675,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0073,40.0,33.0,33.5,50.25,39.9,41.875,5,40.71,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0074,30.000000000000004,25.0,40.0,26.25,25.5,33.125,4,29.450000000000003,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0075,55.00000000000001,100.0,100.0,88.75,95.5,94.375,4,86.95,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High,Very High,High
+R0076,50.0,55.0,55.0,56.0,55.4,55.5,5,54.36,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0077,9.999999999999998,75.0,65.5,63.0,70.2,64.25,5,55.78,High,High,High,High,High,High,High,High,High,High,Moderate,Moderate
+R0078,60.0,68.75,49.375,56.25,63.75,52.8125,4,58.625,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate
+R0079,35.0,30.0,15.0,21.25,26.5,18.125,4,24.85,Low,Low,Very Low,Low,Low,Low,Low,Low,Very Low,Low,Low,Low
+R0080,56.25,30.0,33.125,35.9375,32.375,34.53125,4,38.0125,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0081,50.0,52.8125,72.5,63.75,57.1875,68.125,4,60.125,Moderate,Moderate,High,High,High,High,Moderate,Moderate,High,High,High,High
+R0082,50.0,61.25,55.0,68.4375,64.125,61.71875,4,60.337500000000006,High,High,Moderate,Moderate,High,High,High,High,High,High,High,High
+R0083,80.0,58.75,50.9375,36.875,50.0,43.90625,4,53.5625,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0084,65.0,62.0,47.5,55.0,59.2,50.0,5,56.68000000000001,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0085,40.0,37.0,44.75,59.0,45.8,51.875,5,47.07,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0086,56.25,53.75,46.875,47.1875,51.125,47.03125,4,50.5125,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0087,30.000000000000004,49.0,46.25,38.25,44.7,42.25,5,40.78,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0088,50.0,52.5,43.0,43.0,48.7,43.0,5,46.68000000000001,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0089,44.99999999999999,46.5,69.0,58.000000000000014,51.1,63.5,5,54.84,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate
+R0090,35.0,54.0,70.0,62.75,57.5,66.375,5,56.55,Moderate,Moderate,High,High,High,High,Moderate,Moderate,High,High,Moderate,Moderate
+R0091,25.0,49.75,45.25,31.75,42.55,38.5,5,37.42,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Low,Low,Low,Low
+R0092,15.000000000000002,23.0,17.0,26.0,24.2,21.5,5,21.28,Low,Low,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0093,85.00000000000001,40.0,42.5,45.625,42.25,44.0625,4,51.525000000000006,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0094,65.0,60.0,80.0,78.33333333333333,67.33333333333333,79.16666666666667,3,71.60000000000001,Moderate,Moderate,High,High,High,High,High,High,High,High,High,High
+R0095,60.0,30.25,25.0,40.25,34.25,32.625,5,38.75,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low
+R0096,50.0,28.75,25.0,27.5,28.25,25.833333333333332,4,31.633333333333333,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0097,25.0,55.75,34.75,40.5,49.65,37.625,5,39.91,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Low,Low
+R0098,65.0,63.75,62.5,61.25,62.75,61.875,4,62.85,High,High,High,High,High,High,High,High,High,High,High,High
+R0099,20.0,68.75,62.0,59.25,64.95,60.625,5,54.230000000000004,High,High,High,High,Moderate,Moderate,High,High,High,High,Moderate,Moderate
+R0100,65.0,27.8125,39.6875,35.0,30.6875,37.34375,4,40.2125,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0101,50.0,35.0,46.25,50.0,41.0,48.125,4,45.650000000000006,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0102,44.99999999999999,39.0,44.0,35.0,37.4,39.5,5,39.76,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low
+R0103,43.75,38.25,22.75,49.25,42.65,36.0,5,40.21,Low,Low,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0104,20.0,47.5,56.875,58.75,52.0,57.8125,4,47.925,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0105,55.00000000000001,35.25,39.0,45.0,39.15,42.0,5,43.46,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0106,25.0,41.0,50.0,46.75,43.3,48.375,5,41.67,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0107,89.99999999999999,58.4375,73.75,48.75,54.5625,61.25,4,64.325,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,High,High,High,High
+R0108,37.5,74.25,72.0,73.75,74.05,72.875,5,66.27000000000001,High,High,High,High,High,High,High,High,High,High,High,High
+R0109,40.0,61.0,73.0,68.0,63.8,70.5,5,61.72,High,High,High,High,High,High,High,High,High,High,High,High
+R0110,50.0,48.25,38.0,43.0,46.15,40.5,5,44.66,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0111,31.25,62.0,54.0,65.75,63.5,59.875,5,55.60000000000001,High,High,Moderate,Moderate,High,High,High,High,Moderate,Moderate,Moderate,Moderate
+R0112,56.25,41.75,52.25,50.5,45.25,51.375,5,49.900000000000006,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0113,68.75,38.75,37.1875,36.25,37.75,36.71875,4,43.5375,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0114,60.0,52.5,56.25,57.5,54.5,56.875,4,56.55,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0115,75.0,54.0,36.75,22.25,41.3,29.5,5,43.32,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0116,20.0,19.6875,25.0,23.75,21.3125,24.375,4,22.275,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0117,30.000000000000004,46.5625,51.25,56.25,50.4375,53.75,4,47.675,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0118,25.0,36.0,37.5,44.0,39.2,40.75,5,36.980000000000004,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate,Low,Low
+R0119,50.0,58.0,64.25,46.5,53.4,55.375,5,53.510000000000005,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0120,50.0,47.5,55.25,53.0,46.5,54.125,5,50.25,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0121,44.99999999999999,53.0,46.25,51.25,52.3,48.75,5,49.42,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0122,85.00000000000001,64.16666666666667,71.66666666666667,70.0,66.5,70.83333333333333,3,71.93333333333334,High,High,High,High,High,High,High,High,High,High,High,High
+R0123,37.5,78.4375,66.25,81.25,79.5625,73.75,4,68.825,High,High,High,High,Very High,High,High,High,High,High,High,High
+R0124,31.25,48.0,72.25,61.0,53.2,66.625,5,54.18000000000001,Moderate,Moderate,High,High,High,High,Moderate,Moderate,High,High,Moderate,Moderate
+R0125,50.0,28.4375,35.3125,28.75,28.5625,32.03125,4,34.2375,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0126,50.0,34.5,38.0,38.5,36.1,38.25,5,39.74,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0127,50.0,42.8125,46.66666666666666,45.9375,44.0625,47.708333333333336,4,46.708333333333336,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0128,50.0,28.75,27.0,24.499999999999996,27.05,25.75,5,31.12,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0129,50.0,46.0,56.75,44.6875,44.125,54.0625,5,49.275000000000006,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0130,25.0,39.25,54.0,50.0,43.55,52.0,5,43.22,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0131,50.0,55.9375,40.0,40.0,49.5625,40.0,4,45.825,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0132,55.00000000000001,37.1875,37.5,47.1875,41.1875,42.34375,4,44.4125,Low,Low,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0133,68.75,48.25,46.0,34.75,42.85,40.375,5,47.040000000000006,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0134,56.25,75.0,70.0,68.125,72.25,69.0625,4,67.775,High,High,High,High,High,High,High,High,High,High,High,High
+R0135,40.0,20.0,11.25,40.0,28.0,25.625,2,29.450000000000003,Very Low,Low,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0136,40.0,49.0,38.0,48.25,48.7,43.125,5,44.730000000000004,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0137,56.25,58.125,57.083333333333336,65.0,60.875,57.708333333333336,4,58.68333333333334,Moderate,Moderate,Moderate,Moderate,High,High,High,High,Moderate,Moderate,Moderate,Moderate
+R0138,55.00000000000001,49.0625,51.5625,61.5625,54.0625,56.5625,4,55.25,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0139,70.0,70.0,75.0,62.25,66.9,68.625,5,68.21000000000001,High,High,High,High,High,High,High,High,High,High,High,High
+R0140,75.0,60.0,57.1875,77.5,67.0,67.34375,4,68.7375,Moderate,Moderate,Moderate,Moderate,High,High,High,High,High,High,High,High
+R0141,62.5,74.0625,61.25000000000001,66.25,70.9375,63.75000000000001,4,66.375,High,High,High,High,High,High,High,High,High,High,High,High
+R0142,55.00000000000001,42.0,53.5,45.0,43.2,49.25,5,47.980000000000004,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0143,75.0,35.9375,46.5625,43.75,39.0625,45.15625,4,48.6875,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0144,35.0,69.0,72.0,71.0,69.8,71.5,5,63.52,High,High,High,High,High,High,High,High,High,High,High,High
+R0145,20.0,49.75,38.0,36.25,44.35,37.125,5,36.59,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Low,Low
+R0146,35.0,59.0,63.0,52.5,52.5,55.625,5,50.25,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0147,80.0,19.0,26.5,25.0,21.4,25.75,5,34.86,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0148,25.0,71.0,67.0,67.0,69.4,67.0,5,59.56,High,High,High,High,High,High,High,High,High,High,Moderate,Moderate
+R0149,50.0,22.5,24.0625,30.0,25.5,27.03125,4,31.012500000000003,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0150,65.0,41.0,25.0,35.0,38.6,30.0,5,40.44,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0151,65.0,73.75,74.0,85.0,78.25,79.5,5,76.1,High,High,High,High,Very High,High,High,High,High,High,High,High
+R0152,18.75,68.75,64.6875,60.0,65.25,62.34375,4,54.7875,High,High,High,High,Moderate,Moderate,High,High,High,High,Moderate,Moderate
+R0153,60.0,46.0,45.0,44.75,45.5,44.875,5,48.15,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0154,55.00000000000001,34.75,51.75,47.0,39.65,49.375,5,46.61,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0155,55.00000000000001,33.75,23.75,26.25,30.75,25.0,4,33.300000000000004,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0156,25.0,22.5,15.0,18.75,21.0,16.875,4,20.15,Low,Low,Very Low,Low,Very Low,Low,Low,Low,Very Low,Low,Low,Low
+R0157,70.0,58.4375,52.5,61.25,59.5625,56.875,4,60.575,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,High,High
+R0158,65.0,45.0,36.666666666666664,40.833333333333336,43.333333333333336,38.75,3,45.833333333333336,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0159,44.99999999999999,51.25,57.8125,50.0,50.75,53.90625,4,50.8625,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0160,80.0,55.0,55.0,57.75,56.1,56.5625,5,61.065,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,High,High
+R0161,15.000000000000002,57.25,62.25,73.00000000000001,63.55,67.625,5,55.47,Moderate,Moderate,High,High,High,High,High,High,High,High,Moderate,Moderate
+R0162,35.0,49.166666666666664,41.666666666666664,40.0,45.5,40.833333333333336,3,41.53333333333333,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0163,15.000000000000002,39.375,51.25,52.5,44.625,51.875,4,41.6,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0164,70.0,46.25,60.0,57.5,50.75,58.75,4,57.8,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0165,15.000000000000002,60.25,48.0,50.0,56.15,49.0,5,45.06,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0166,65.0,34.75,36.75,37.0,35.65,36.875,5,42.01,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Moderate,Moderate
+R0167,25.0,28.25,44.0,44.0,34.55,44.0,5,36.42,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Low,Low
+R0168,31.25,68.75,46.25,68.75,68.75,57.5,4,56.75,High,High,Moderate,Moderate,High,High,High,High,Moderate,Moderate,Moderate,Moderate
+R0169,80.0,80.3125,82.5,70.0,76.1875,76.25,4,76.975,Very High,High,Very High,High,High,High,High,High,High,High,High,High
+R0170,50.0,77.0,73.0,85.75,80.5,79.375,5,73.95,High,High,High,High,Very High,High,Very High,High,High,High,High,High
+R0171,50.0,70.3125,66.25,66.875,68.9375,66.5625,4,64.2,High,High,High,High,High,High,High,High,High,High,High,High
+R0172,35.0,54.0,56.0,64.5,58.2,60.25,5,54.38,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,High,High,Moderate,Moderate
+R0173,65.0,62.5,45.0,49.6875,57.375,47.34375,4,54.8875,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0174,70.0,51.0,56.0,63.0,55.8,59.5,5,60.120000000000005,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,High,High
+R0175,37.5,33.5,38.0,31.25,32.6,34.625,5,34.39,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0176,50.0,44.25,43.25,44.0,44.15,43.625,5,45.11,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0177,55.00000000000001,41.875,31.25,26.25,35.625,28.75,4,36.75,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0178,60.0,59.166666666666664,78.33333333333333,63.333333333333336,60.833333333333336,70.83333333333333,3,64.66666666666667,Moderate,Moderate,High,High,High,High,High,High,High,High,High,High
+R0179,65.0,62.5,62.5,52.49999999999999,58.5,57.5,4,59.400000000000006,High,High,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0180,62.5,80.0,77.5,71.25,76.5,74.375,4,72.85,High,High,High,High,High,High,High,High,High,High,High,High
+R0181,70.0,44.0,29.75,41.49999999999999,43.0,35.625,5,45.45,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0182,60.0,35.0,49.0,41.0,37.4,45.0,5,44.96,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0183,55.00000000000001,61.25,62.5,68.75,64.25,65.625,4,62.95,High,High,High,High,High,High,High,High,High,High,High,High
+R0184,30.000000000000004,78.75,83.75,82.49999999999999,80.25,83.125,4,71.35,High,High,Very High,High,Very High,High,Very High,High,Very High,High,High,High
+R0185,60.0,43.25,48.0,36.0,40.35,42.0,5,44.94,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0186,60.0,49.25,52.0,36.0,43.95,44.0,5,47.18000000000001,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0187,40.0,31.25,33.4375,25.0,28.75,29.21875,4,31.1875,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0188,55.00000000000001,43.75,39.0,54.5,48.05,46.75,5,48.92,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0189,81.25,65.0,64.375,65.0,65.0,64.6875,4,68.125,High,High,High,High,High,High,High,High,High,High,High,High
+R0190,50.0,35.3125,22.5,40.3125,37.3125,31.40625,4,37.4875,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low
+R0191,75.0,20.0,26.0,33.0,25.2,29.5,5,36.88,Very Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0192,44.99999999999999,47.5,51.75,68.0,55.7,59.875,5,55.230000000000004,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0193,50.0,36.25,40.0,38.75,37.25,36.666666666666664,4,39.56666666666666,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low
+R0194,75.0,58.75,61.25,36.875,50.0,49.0625,4,54.625,Moderate,Moderate,High,High,Low,Low,Moderate,Moderate,Moderate,Moderate,Moderate,Moderate
+R0195,55.00000000000001,69.0625,58.75,56.5625,64.0625,57.65625,4,59.6875,High,High,Moderate,Moderate,Moderate,Moderate,High,High,Moderate,Moderate,Moderate,Moderate
+R0196,50.0,25.3125,44.0625,43.75,32.6875,43.90625,4,40.6375,Low,Low,Moderate,Moderate,Moderate,Moderate,Low,Low,Moderate,Moderate,Moderate,Moderate
+R0198,43.75,32.0,41.0,32.25,32.1,36.625,5,36.24,Low,Low,Moderate,Moderate,Low,Low,Low,Low,Low,Low,Low,Low
+R0199,70.0,49.0625,26.25,28.749999999999996,40.9375,27.5,4,41.375,Moderate,Moderate,Low,Low,Low,Low,Moderate,Moderate,Low,Low,Moderate,Moderate
+R0200,20.0,56.5625,55.0,66.25,60.4375,60.625,4,52.425,Moderate,Moderate,Moderate,Moderate,High,High,High,High,High,High,Moderate,Moderate

@@ -1,0 +1,5 @@
+feature_set,n_features,cv_accuracy_mean,cv_accuracy_std,leak_reconstruction_corr,boleh_disebut
+BASELINE (kelas mayoritas),0,0.5426923076923077,0.009910845174403956,,patokan
+SET A (bocor telanjang),71,0.9200128205128206,0.03668824226255028,1.0,demonstrasi kebocoran
+SET B (konsistensi internal),50,0.7894102564102562,0.05858248285819212,1.0,"konsistensi internal, BUKAN prediksi"
+SET C (prediksi bersih),8,0.4226282051282051,0.06500154881075913,0.0,prediksi
