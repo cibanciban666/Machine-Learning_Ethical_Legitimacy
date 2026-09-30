@@ -24,6 +24,7 @@ Untuk setiap bug dijelaskan lima hal, dengan pola yang sama:
 - [Bagian II — Robustness statistik](#bagian-ii--robustness-statistik)
 - [Bagian III — Metodologi](#bagian-iii--metodologi)
 - [Bagian IV — Temuan baru selama perbaikan](#bagian-iv--temuan-baru-selama-perbaikan)
+- [Bagian V — Audit reproducibility](#bagian-v--audit-reproducibility)
 - [Yang sengaja TIDAK diubah](#yang-sengaja-tidak-diubah)
 - [Cara memverifikasi sendiri](#cara-memverifikasi-sendiri)
 - [Daftar berkas](#daftar-berkas)
@@ -55,7 +56,7 @@ Beberapa istilah yang sering muncul di dokumen ini. Cukup pahami versi sederhana
 
 ## Ringkasan seluruh perbaikan
 
-**17 perbaikan** (15 dari laporan review + 2 temuan baru yang disetujui), ditambah 1 keputusan teknis yang saya ambil sendiri karena memblokir eksekusi.
+**18 perbaikan** (15 dari laporan review + 2 temuan baru saat perbaikan + 1 temuan dari audit reproducibility lanjutan), ditambah 1 keputusan teknis yang saya ambil sendiri karena memblokir eksekusi.
 
 | # | Bug | File | Sifat |
 |---|---|---|---|
@@ -76,6 +77,7 @@ Beberapa istilah yang sering muncul di dokumen ini. Cukup pahami versi sederhana
 | 15 | Bobot implisit ID tidak didokumentasikan | 02 | dokumentasi |
 | a | Label "turun" dicetak tanpa syarat | 05 | **temuan baru** |
 | b | `IF_ID_Stage` masih mendominasi SHAP | 04, 05 | **temuan baru** |
+| **18** | **Seed SALib tidak diteruskan sehingga Sobol/Morris tidak reproducible** | **03** | **temuan audit** |
 | — | `factor_analyzer` × scikit-learn 1.9 bentrok | 01 | blocker teknis |
 
 **Hasil akhir:** seluruh 8 notebook dijalankan ulang dari awal sampai akhir — **0 error**. Dua tes regresi baru — **keduanya lolos**.
@@ -394,11 +396,13 @@ Kedua versi dijalankan bersama karena ini bukan sekadar perbaikan teknis: kesimp
 
 | Parameter | ST sebelum | ST sesudah |
 |---|---|---|
-| `w_mas1` | 0.0322 | **0.1111** |
-| `w_eci1` | 0.0159 | **0.0596** |
-| `w_nrei1` | 0.8416 | 0.7155 |
-| `w_nrei2` | 0.7917 | 0.6410 |
-| **Rasio ST(NREI) / ST(MAS+ECI)** | **34.0×** | **7.94×** |
+| `w_mas1` | 0.0320 | **0.1156** |
+| `w_eci1` | 0.0376 | **0.0568** |
+| `w_nrei1` | 0.8360 | 0.7402 |
+| `w_nrei2` | 0.7869 | 0.6068 |
+| **Rasio ST(NREI) / ST(MAS+ECI)** | **31.7×** | **7.82×** |
+
+> Angka di tabel ini **baru bisa direproduksi** setelah Bug 18 diperbaiki. Versi laporan sebelumnya mencantumkan 34.0× → 7.94×, yang berasal dari run tanpa seed sehingga tidak dapat diulang. Nilai di atas diambil dari `sensitivity_sobol.csv` yang kini terbukti byte-identik antar-run.
 
 **Cara membacanya:** arah kesimpulan lama **tetap benar** — bobot NREI memang paling berpengaruh. Tapi besarannya dulu **berlebih sekitar 4 kali**. Dan MAS/ECI ternyata **tidak** "nyaris nol" seperti yang dilaporkan sebelumnya.
 
@@ -953,6 +957,151 @@ Did you mean 'ensure_all_finite'?
 
 ---
 
+## Bagian V — Audit reproducibility
+
+Bagian ini berasal dari **audit terpisah** setelah 17 perbaikan sebelumnya selesai. Pertanyaan yang diaudit: *"di notebook mana seed diatur, dan apakah semua langkah acak benar-benar memakainya?"*
+
+---
+
+### Bug 18 — `np.random.seed(42)` tidak menjangkau SALib, sehingga Sobol & Morris tidak reproducible
+
+#### Apa yang salah
+
+`03_sensitivity_analysis.ipynb` mencantumkan `np.random.seed(42)` di sel 1 baris 8, sehingga **tampak** sudah reproducible. Tapi dua pemanggilan SALib di bawahnya tidak menerima argumen `seed`:
+
+```python
+# sel[10] baris 48 (sebelum)
+par = sobol_sample.sample(prob, N=512)
+
+# sel[12] baris 1 (sebelum)
+morris_params = morris_sample.sample(problem, N=100, num_levels=4)
+```
+
+Masalahnya: **SALib memakai generator angka acak sendiri** (berbasis `scipy.stats.qmc`), terpisah dari state global `np.random`. Jadi `np.random.seed(42)` sama sekali tidak menjangkaunya.
+
+Dibuktikan langsung, bukan diduga:
+
+```
+Sobol : np.random.seed(42) di kedua run -> hasil identik? False
+Morris: np.random.seed(42) di kedua run -> hasil identik? False
+Sobol : seed=42 diteruskan eksplisit    -> hasil identik? True
+```
+
+Audit lanjutan menemukan **dua titik lagi** yang juga tanpa seed: `sobol_analyze.analyze()` dan `morris_analyze.analyze()`, yang melakukan *bootstrap* (`num_resamples=100`) untuk menghitung interval kepercayaan. Jadi totalnya **empat** titik, bukan dua.
+
+#### Kenapa itu masalah
+
+> **Analogi:** Anda menempel label "sudah dikalibrasi" pada timbangan, padahal yang dikalibrasi timbangan di ruang sebelah. Labelnya membuat orang percaya angkanya bisa diulang — justru itu yang membuatnya berbahaya.
+
+Notebook yang **terlihat** reproducible lebih berisiko daripada yang jelas-jelas tidak, karena tidak ada lagi yang memeriksanya. Konkretnya: menjalankan `03` dua kali dengan kode yang sama persis menghasilkan angka berbeda —
+
+| Parameter | `S1` run 1 | `S1` run 2 | Selisih |
+|---|---|---|---|
+| `w_mas1` | 0.0587 | 0.0426 | **−0.0161** (−27% relatif) |
+| `w_eci1` | 0.0064 | 0.0037 | −0.0027 |
+| `w_nrei1` | 0.2798 | 0.3085 | **+0.0287** |
+| `w_nrei2` | 0.2355 | 0.2260 | −0.0095 |
+
+Pergeseran sebesar itu cukup untuk mengubah cara Anda **mendeskripsikan** hasil di Bab IV. Dan bila penguji meminta Anda menjalankan ulang analisis di depan mereka, angkanya tidak akan cocok dengan yang tertulis di disertasi — situasi yang sulit dijelaskan.
+
+#### Apa yang saya ubah
+
+Seed diteruskan eksplisit ke keempat titik, dengan satu konstanta `SEED = 42` supaya tidak ada yang terlewat:
+
+```python
+# sel[10] -- SEED diteruskan EKSPLISIT ke SALib karena np.random.seed(42)
+# di sel paling atas TIDAK menjangkaunya.
+SEED = 42
+
+def jalankan_sobol(prob, label):
+    par = sobol_sample.sample(prob, N=512, seed=SEED)
+    Y = np.array([flip_rate_for_params(r) for r in par])
+    res = sobol_analyze.analyze(prob, Y, print_to_console=False, seed=SEED)
+
+# sel[12]
+morris_params = morris_sample.sample(problem, N=100, num_levels=4, seed=SEED)
+morris_result = morris_analyze.analyze(problem, morris_params, Y_morris,
+                                       print_to_console=False, seed=SEED)
+```
+
+#### Justifikasi
+
+**Kenapa seed diteruskan eksplisit, bukan mengandalkan seed global?** Karena memang tidak bisa — sudah diuji dan gagal. Ini bukan pilihan gaya penulisan, melainkan satu-satunya cara yang bekerja pada API SALib.
+
+**Kenapa `analyze()` ikut diseed, padahal permintaannya hanya dua fungsi `sample()`?** Secara teknis, *bootstrap* di `analyze()` hanya menghasilkan kolom interval kepercayaan (`S1_conf`, `ST_conf`, `mu_star_conf`) yang **tidak** disimpan ke CSV — jadi ia tidak mempengaruhi angka yang dilaporkan sekarang. Tapi biayanya nol (satu argumen di baris yang memang sedang disentuh), dan ia menutup celah yang akan terbuka begitu Anda mulai melaporkan interval kepercayaan di Bab IV. Dibiarkan setengah-diseed justru menyiapkan jebakan yang sama untuk versi berikutnya.
+
+**Kenapa `SEED` dijadikan konstanta, bukan angka 42 di empat tempat?** Supaya kalau nanti Anda ingin menguji kestabilan hasil dengan seed lain — praktik yang baik untuk analisis sensitivitas — cukup ubah satu baris, dan tidak mungkin ada pemanggilan yang tertinggal memakai seed lama.
+
+**Kenapa kedua versi bounds memakai seed yang sama?** `jalankan_sobol()` dipanggil dua kali (bounds lama yang timpang dan bounds baru yang adil). Keduanya kini memakai `SEED` yang sama, sehingga memakai deret quasi-acak yang identik. Ini **disengaja**: perbandingan lama-vs-baru jadi mengisolasi pengaruh *bounds* saja, tanpa tercampur perbedaan titik sampel.
+
+#### Angka sebelum → sesudah
+
+**Uji reproducibility** — notebook dijalankan dua kali, keluaran dibandingkan pada level byte:
+
+| Berkas | Sebelum perbaikan | Sesudah perbaikan |
+|---|---|---|
+| `sensitivity_sobol.csv` | **BERBEDA** antar-run | **IDENTIK** antar-run |
+| `sensitivity_morris.csv` | **BERBEDA** antar-run | **IDENTIK** antar-run |
+| `sensitivity_summary.csv` | **BERBEDA** antar-run | **IDENTIK** antar-run |
+
+Hash SHA-256 dari dua run terpisah setelah perbaikan:
+
+```
+4057647123bc28e350ce7ea69f70b9529e54ae7f463ebf6de6800a221c0db9d6  sobol  (run 1)
+4057647123bc28e350ce7ea69f70b9529e54ae7f463ebf6de6800a221c0db9d6  sobol  (run 2)
+51d8d288272f6cbbe27f3bb05e5a97c2a90813fdb43833a8322f6429db78229e  morris (run 1)
+51d8d288272f6cbbe27f3bb05e5a97c2a90813fdb43833a8322f6429db78229e  morris (run 2)
+```
+
+**Angka final yang kini terkunci** — inilah yang sah dikutip ke Bab IV:
+
+| Parameter | `S1` | `ST` | `mu_star` | `sigma` |
+|---|---|---|---|---|
+| `w_mas1` | 0.0320 | 0.1156 | 0.0196 | 0.0223 |
+| `w_eci1` | 0.0376 | 0.0568 | 0.0144 | 0.0188 |
+| `w_nrei1` | 0.2829 | 0.7402 | 0.0683 | 0.0658 |
+| `w_nrei2` | 0.1994 | 0.6068 | 0.0667 | 0.0702 |
+
+Rasio ST(NREI)/ST(MAS+ECI): **31.7x (bounds lama) menjadi 7.82x (bounds adil)**.
+
+> **Konsekuensi untuk laporan ini sendiri:** tabel di Bug 6 sebelumnya mencantumkan 34.0x menjadi 7.94x, diambil dari run **tanpa seed** sehingga tidak dapat diulang siapa pun. Angka itu sudah diperbarui ke nilai yang kini reproducible. Kesimpulannya tidak berubah — bobot NREI tetap yang paling berpengaruh, dan koreksi bounds tetap memotong rasionya sekitar 4x — hanya angkanya sekarang bisa dipertanggungjawabkan.
+
+#### Status seed di seluruh pipeline setelah Bug 18
+
+| File | Seed | Status |
+|---|---|---|
+| `00_data_cleaning.ipynb` | `np.random.seed(42)` sel 1 baris 5; `.sample(random_state=1..4)` sel 7; `default_rng(7)` sel 7 baris 4 | lengkap |
+| `01_validity_reliability.ipynb` | `parallel_analysis(..., seed=42)` sel 7 baris 11, dipanggil tanpa override | lengkap |
+| `02_index_construction.ipynb` | — | tidak ada elemen acak |
+| `03_sensitivity_analysis.ipynb` | `np.random.seed(42)` sel 1 baris 8 + **`seed=SEED` pada 4 pemanggilan SALib** | lengkap *(setelah Bug 18)* |
+| `04_feature_engineering.ipynb` | — | tidak ada elemen acak |
+| `05_ml_analytics.ipynb` | `random_state=42` pada KMeans, RepeatedStratifiedKFold, train_test_split, RF, XGBoost, IsolationForest | lengkap |
+| `06_explainability_erm.ipynb` | `np.random.seed(42)` sel 1 baris 7; `LimeTabularExplainer(random_state=42)` sel 6 | lengkap |
+| `07_dashboard_export.ipynb` | — | tidak ada elemen acak |
+
+Catatan: `LogisticRegression` di `05` sel 9 tidak diberi `random_state`, tapi solver bawaannya `lbfgs` yang deterministik — `random_state` pada LogisticRegression hanya berpengaruh untuk solver `sag`/`saga`/`liblinear`. `AgglomerativeClustering` dan `LocalOutlierFactor` tidak punya parameter `random_state` karena algoritmanya memang deterministik. Ketiganya **bukan** celah.
+
+#### Pembagian latih/uji: per baris, bukan per kelompok — **belum ada**
+
+Audit yang sama memeriksa cara data dibagi. Hanya ada satu titik pembagian dan satu skema cross-validation, keduanya di `05_ml_analytics.ipynb`:
+
+```python
+# sel[9] baris 3-4
+Xtr_raw, Xte_raw, ytr, yte, idx_tr, idx_te = train_test_split(
+    X_b, y, df.index, test_size=0.2, random_state=42, stratify=y)
+
+# sel[7] baris 92
+cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=42)
+```
+
+Keduanya men-stratifikasi **hanya berdasarkan `y`** (kategori NREI), pada `feature_matrix.csv` yang sudah satu-baris-satu-responden (199 baris = 199 orang).
+
+**Pembagian per kelompok Lapas: belum ada.** Pencarian `GroupKFold`, `GroupShuffleSplit`, dan parameter `groups=` di seluruh 8 notebook menghasilkan nihil. `institution_encoded` hanya dipakai sebagai **fitur** (`04_feature_engineering.ipynb` sel 13 baris 7; `05_ml_analytics.ipynb` sel 7 baris 29), bukan sebagai kunci pengelompokan saat membagi data.
+
+Ini **sengaja belum ditambahkan**. Karena satu baris = satu responden dan tiap responden berasal dari satu Lapas, tidak ada kebocoran "orang yang sama" antara train dan test. `GroupKFold` per `institution` baru diperlukan bila Bab IV hendak mengklaim bahwa model **dapat digeneralisasi ke Lapas yang belum pernah dilihat** — dan keputusan itu menunggu rumusan klaim generalisasi di Bab IV, bukan keputusan teknis semata.
+
+---
+
 ## Yang sengaja TIDAK diubah
 
 Sama pentingnya dengan yang diubah. Berikut hal-hal yang saya biarkan, beserta alasannya.
@@ -1075,6 +1224,6 @@ Perbaikannya sekitar 5 baris di File 07. Saya belum mengerjakannya karena tidak 
 
 2. **Struktur kuesionernya terbukti kokoh.** Rotasi promax menunjukkan cross-loading yang dulu dikhawatirkan memang artefak (0.22–0.30 → 0.00–0.06), parallel analysis mengonfirmasi 3 faktor, dan EFA pembanding pada 129 responden independen menjawab keberatan pseudo-replikasi **dengan data**, bukan dengan catatan kaki.
 
-3. **Temuan sensitivity-nya bertahan, dengan angka yang benar.** Bobot NREI memang paling berpengaruh — tapi 7.94×, bukan 34×.
+3. **Temuan sensitivity-nya bertahan, dengan angka yang benar dan kini dapat direproduksi.** Bobot NREI memang paling berpengaruh — tapi 7.82×, bukan 31.7×.
 
 Sisi lain yang tak kalah berharga: notebook kini **memeriksa dirinya sendiri**. Audit kebocoran berjalan otomatis setiap run, `assert` menggagalkan notebook kalau SET C tercemar, kestabilan cluster dinilai eksplisit dan direkam ke CSV, dan setiap klaim arah perubahan dibaca dari data alih-alih ditulis permanen. Kalau bug-bug ini terulang di data riil nanti, mereka akan **berteriak**, bukan diam-diam lolos.

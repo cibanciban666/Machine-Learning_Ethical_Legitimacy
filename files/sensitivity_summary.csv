@@ -1,2 +1,2 @@
 mean_flip_rate_pct,flip_rate_pass_lt5pct,mean_spearman,spearman_pass_gt090,n_monte_carlo_iter,l1_budget_per_level,ST_nrei_over_masECI_lama,ST_nrei_over_masECI_baru
-6.766783919597991,False,0.991633654789097,True,10000,0.2,33.967067433350756,7.510029144522543
+6.766783919597991,False,0.991633654789097,True,10000,0.2,31.672943508424172,7.815468832774147
